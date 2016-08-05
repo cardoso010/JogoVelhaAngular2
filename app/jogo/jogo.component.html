@@ -1,0 +1,77 @@
+<style>
+  table { border-collapse: separate; border-spacing: 5px; }
+  .divs { width: 100px;height: 50px;border-radius: 5px;padding: 0px;  }
+</style>
+
+<p *ngIf="msg">{{ msg }}</p>
+<table>
+  <tr>
+    <td>
+      <div class="jumbotron divs" (click)="check('C1L1', 'X')">
+        <div class="container">
+          <p style="size: 100%;text-align: center;"> {{ camposdict['C1L1'] }} </p>
+        </div>
+      </div>
+    </td>
+    <td>
+      <div class="jumbotron divs" (click)="check('C2L1', 'X')">
+        <div class="container">
+          <p style="size: 100%;text-align: center;"> {{ camposdict['C2L1'] }} </p>
+        </div>
+      </div>
+    </td>
+    <td>
+      <div class="jumbotron divs" (click)="check('C3L1', 'X')">
+        <div class="container">
+          <p style="size: 100%;text-align: center;"> {{ camposdict['C3L1'] }} </p>
+        </div>
+      </div>
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <div class="jumbotron divs" (click)="check('C1L2', 'X')">
+        <div class="container">
+          <p style="size: 100%;text-align: center;"> {{ camposdict['C1L2'] }} </p>
+        </div>
+      </div>
+    </td>
+    <td>
+      <div class="jumbotron divs" (click)="check('C2L2', 'X')">
+        <div class="container">
+          <p style="size: 100%;text-align: center;"> {{ camposdict['C2L2'] }} </p>
+        </div>
+      </div>
+    </td>
+    <td>
+      <div class="jumbotron divs" (click)="check('C3L2', 'X')">
+        <div class="container">
+          <p style="size: 100%;text-align: center;"> {{ camposdict['C3L2'] }} </p>
+        </div>
+      </div>
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <div class="jumbotron divs" (click)="check('C1L3', 'X')">
+        <div class="container">
+          <p style="size: 100%;text-align: center;"> {{ camposdict['C1L3'] }} </p>
+        </div>
+      </div>
+    </td>
+    <td>
+      <div class="jumbotron divs" (click)="check('C2L3', 'X')">
+        <div class="container">
+          <p style="size: 100%;text-align: center;"> {{ camposdict['C2L3'] }} </p>
+        </div>
+      </div>
+    </td>
+    <td>
+      <div class="jumbotron divs" (click)="check('C3L3', 'X')">
+        <div class="container">
+          <p style="size: 100%;text-align: center;"> {{ camposdict['C3L3'] }} </p>
+        </div>
+      </div>
+    </td>
+  </tr>
+</table>
